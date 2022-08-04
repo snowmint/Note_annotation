@@ -169,7 +169,7 @@ def midi_to_score(mid_data, got_instrument, onset_adjust, measure_adjust, midi_p
 
     for instruments in mid_data.instruments:
         for note in instruments.notes:
-            duration = note.duration + 0.002083333333334
+            duration = note.duration# + 0.002083333333334
             onset = note.start + onset_adjust
             offset = note.start + duration + onset_adjust
             pitch = note.pitch
