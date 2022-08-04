@@ -1,0 +1,8 @@
+Command guideline:
+In this directory have adjusted MIDI folders "ideal_example".
+
+Command:
+python merge_music21_prettyMIDI_get_annotation.py --path ./ideal_piano_example
+
+Run the above command respectively, then will get  folders of annotation:
+./piano_with_header
